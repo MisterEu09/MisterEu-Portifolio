@@ -32,7 +32,7 @@ nav {
 }
 
 nav a {
-    color: var(--secondary-color);
+    color: var(--text-color);
     font-weight: 500;
     transition: 0.3s ease;
     border-bottom: 3px solid transparent;
@@ -60,14 +60,12 @@ nav a.active {
     height: 2.5rem;
     font-size: 1.8rem;
     border-radius: 50%;
-    color: var(--primary-color);
+    color: var(--text-color);
     transition: 0.3s ease;
 }
 
 .social-icon a:hover {
     transform: scale(1.2) translateY(-5px);
-    background-color: var(--primary-color);
-    color: var(--background-color);
     box-shadow: 0 0 1rem var(--primary-color);
 }
 

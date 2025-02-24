@@ -39,7 +39,7 @@ section {
     padding: 7rem 9%;
 }
 footer{
-    font-size: 2rem;
+    font-size: 1.8rem;
     background-color:var(--background-color);
     padding: 40px 0;
     text-align: center;
@@ -47,6 +47,7 @@ footer{
 }
 footer a{
     color: var(--sencudary-color);
+    font-size: 2rem;
 }
 .fa-brands:hover{
     color: var(--primary-color);
